@@ -216,7 +216,7 @@
             </div>
         {% endif %}
 
-        {% if club_items %}
+        {% if club_items and not view_announcements_url == "announcements_archive" %}
             <div class="club-announcements">
                 <h3 class="club-announcements-header">
                     <i class="fas fa-users"></i>&nbsp;
