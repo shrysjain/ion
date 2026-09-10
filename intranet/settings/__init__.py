@@ -32,7 +32,7 @@ end_school_year = start_school_year + 1
 """ !! -------- UPDATE ANNUALLY -------- !!
 Update this section annually after summer school ends and before school starts.
 School year last updated:  2026-08-12
-Hoco last updated:         2026-08-21
+Hoco last updated:         2026-09-10
 tjSTAR last updated:       2026-05-20
 """
 
@@ -46,7 +46,7 @@ SCHOOL_END_DATE = datetime.date(end_school_year,
 
 # Dates when hoco starts and ends
 HOCO_START_DATE = datetime.date(start_school_year,
-    9, 12  # UPDATE THIS! Value when last updated: September 12, 2026   # noqa: E128
+    9, 10  # UPDATE THIS! Value when last updated: September 10, 2026   # noqa: E128
 )                                                                       # noqa: E124
 HOCO_END_DATE = datetime.date(start_school_year,
     9, 20  # UPDATE THIS! Value when last updated: September 20, 2026   # noqa: E128
